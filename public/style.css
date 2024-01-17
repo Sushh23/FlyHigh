@@ -1,0 +1,63 @@
+.flex-1 {
+    flex: 1;
+  }
+  .container-sm{
+    background-color: #140038;;
+    margin-top: 200px;
+    margin-top: 300px;
+    padding: 0;
+  
+
+  }
+  .card-body{
+    background-color: rgb(53, 22, 80);
+    color: aliceblue;
+    border-color: rgb(53, 22, 80);
+    border-radius: 30px;
+    margin: 0;
+  }
+  body{
+    background-color: #140038;
+    background-image: url('Home.png');
+    background-repeat: no-repeat;
+    background-size: 1400px 500px;
+    border-radius: 20px;
+  }
+  .btn-outline-success,.btn{
+    --bs-btn-color: #ff8405;
+    --bs-btn-border-color: #ff8405;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #ff8405;
+    --bs-btn-hover-border-color: #ff8405;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #ff8405;
+    --bs-btn-active-border-color: #ff8405;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #ff8405;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #ff8405;
+    --bs-gradient: none;
+  }
+  .my-2{
+     background-color: #140038;;
+     border-radius: 17px;
+  }
+  .card-body{
+    background-color:  rgb(49, 26, 66);
+    /* background-color:  rgb(246, 244, 247); */
+    margin: 0;
+ }
+ .h-100{
+  background-color:  rgb(49, 26, 66);
+  border-radius: 17px;
+ }
+ .card{
+  background-color:  rgb(49, 26, 66);
+ }
+ #search-button{
+   background-color: rgb(255, 115, 0);
+ }
+ .seats:nth-child(C){
+  margin-right: 14%;
+ }

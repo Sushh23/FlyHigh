@@ -1,0 +1,52 @@
+body{
+     position:relative;
+    width: 100%;
+    height: 100vh;
+    background:url("contact.jpg")no-repeat;
+    background-size:cover;
+    background-position:center;
+
+   
+}
+.contact h1{
+    letter-spacing:.03em;
+    font-size:larger;
+    font-family:cursive;
+    font-style: italic;
+    text-transform: capitalize;
+      background-color: burlywood;
+      width:max-content;
+
+}
+.contact p{
+    margin: 10px 0 40px;
+    background-color: bisque;
+    color: rgb(80, 171, 141);
+    width: fit-content;
+
+}
+.contact h3{
+    font-size:larger;
+    font-family:cursive;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.content a{
+    color:black;
+    text-decoration: none;
+    border:2px solid black;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius:40px;
+
+}
+.login a{
+    color:black;
+    text-decoration: none;
+    border:2px solid black;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius:40px;
+    background-color:moccasin;
+}
+

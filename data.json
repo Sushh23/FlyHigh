@@ -1,0 +1,84 @@
+{
+  "users": {
+    "user1": {
+      "email": "john.smith@gmail.com",
+      "password": "SecureP@ss"
+    },
+    "user2": {
+      "email": "emily.jones@yahoo.com",
+      "password": "P@ssw0rd123"
+    },
+    "user3": {
+      "email": "michael.johnson@example.com",
+      "password": "Secret123!"
+    },
+    "user4": {
+      "email": "sarah.miller@gmail.com",
+      "password": "StrongP@ss"
+    },
+    "user5": {
+      "email": "robert.brown@example.com",
+      "password": "Passw0rd#"
+    },
+    "user6": {
+      "email": "laura.davis@yahoo.com",
+      "password": "Pa$$w0rd456"
+    },
+    "user7": {
+      "email": "william.wilson@gmail.com",
+      "password": "SecurePass!"
+    },
+    "user8": {
+      "email": "emily.thomas@example.com",
+      "password": "MyP@ss123"
+    },
+    "user9": {
+      "email": "david.jackson@yahoo.com",
+      "password": "Secret@123!"
+    },
+    "user10": {
+      "email": "olivia.anderson@gmail.com",
+      "password": "Anderson2023"
+    },
+    "user11": {
+      "email": "prernasamtani42@gmail.com",
+      "password": "samtaniprerna42"
+    },
+    "user12": {
+      "email": "example1@example.com",
+      "password": "Password123"
+    },
+    "user13": {
+      "email": "testuser2@example.com",
+      "password": "TestPassword"
+    },
+    "user14": {
+      "email": "user345@gmail.com",
+      "password": "User1234"
+    },
+    "user15": {
+      "email": "randomuser42@yahoo.com",
+      "password": "RandomP@ss"
+    },
+    "user16": {
+      "email": "user12345@example.com",
+      "password": "UserPass"
+    },
+    "user17": {
+      "email": "testuser3@gmail.com",
+      "password": "Password456"
+    },
+    "user18": {
+      "email": "example2@example.com",
+      "password": "SecretPass"
+    },
+    "user19": {
+      "email": "user678@yahoo.com",
+      "password": "Secure1234"
+    },
+    "user20": {
+      "email": "user2023@example.com",
+      "password": "Password2023"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+body{
+    background:url("book.jpg")no-repeat;
+    width: 100%;
+    height: fit-content;
+    background-size: cover;
+    
+}
+
+.book h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.check{
+    box-sizing: border-box;
+    border-radius: 25px;
+    border-style: solid;
+    width:90%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    border-width: 5px 5px 5px 5px;
+    background-color:rgba(74, 8, 105, 0.97);
+    margin-top:400px;
+    margin-left:60px;
+    margin-bottom:250px;;
+    display: block;
+}
+
+.checkboxes{
+     margin-right: 80%;
+     display: flex;
+}
+
+.checklabel {
+    font-size: 20px; 
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right:50px;
+    margin-left: 50px;
+    float: left;
+    display: flex;
+
+}
+    
+input[type="checkbox"] 
+{
+    margin-right: 10px;
+     
+}
+.check{
+    padding-left:50px;
+    padding-top:10px;
+}
+
+label {
+    display:inline-block; /* Make the label a block element to stack it on top of the dropdown */
+    font-weight: bold; /* Make the label text bold */
+    margin-bottom: 10px; /* Add space between the label and the dropdown */
+}
+
+.mate{
+    padding-left: 20px;
+    padding-top: 20px;
+    display: inline-flex;
+    float: left;
+}
+.checker {
+    width: 150px; /* Set the width of the dropdown boxes */
+    margin: 0 10px; /* Add some space between the dropdown boxes */
+    margin-top: 1%;
+}
+
+
+select {
+    width: 100%; /* Make the dropdown fill the container */
+    padding: 10px; /* Add some padding inside the dropdown */
+    font-size: 16px; /* Set the font size of the dropdown options */
+    margin-bottom: 10px; /* Add space between the dropdowns */
+}
+.search-button {
+     /* Add padding to the button */
+    font-size: 20px; /* Set the font size of the button text */
+    background-color:purple; /* Set the background color of the button */
+    color: white; /* Set the text color of the button */
+    border-radius:25px; /* Remove border from the button */
+    cursor: pointer;
+    width:200px;
+    margin-bottom:10px;
+    padding-bottom: 10px;
+    margin-top:30px;
+    margin-left:300px;
+   
+    /* Set cursor to pointer on hover */
+}

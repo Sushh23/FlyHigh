@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <section class="home">
+        
+        <div class="wrapper-login">
+          
+            <h2>Login</h2>
+            <form id="login-form">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input class="abc" type="email" placeholder="Enter email" required id="email">
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input class="abc" type="password" placeholder="Password" required id="password">
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox" id="remember-me">
+                        Remember me
+                    </label>
+                </div>
+                <button type="button" class="btn" id="submit">Login</button><br><br>
+                <a href="#">Forgot password</a>
+            </form>
+        </div>
+        
+       
+    </section>
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
+        import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-database.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyAnGi65i1vhhrrPVz40AH0i15-ABtHc_A0",
+            authDomain: "flightbooking-3374b.firebaseapp.com",
+            databaseURL: "https://flightbooking-3374b-default-rtdb.firebaseio.com",
+            projectId: "flightbooking-3374b",
+            storageBucket: "flightbooking-3374b.appspot.com",
+            messagingSenderId: "108575571114",
+            appId: "1:108575571114:web:e33a3edc1f4d44f2bb24d3",
+            measurementId: "G-B24MQG0F0J"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase(app);
+
+        document.getElementById("submit").addEventListener('click', function() {
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+            const rememberMe = document.getElementById("remember-me").checked;
+
+            const userRef = ref(db, 'user');
+            push(userRef, {
+                email: email,
+                password: password,
+                rememberMe: rememberMe
+            });
+
+            alert("Login Successful!");
+            window.location.href = "http://localhost:3000";
+        });
+    </script>
+    <footer class="footer">
+        <marquee scrollamount="20" scrolldelay="1" behavior="scroll">FLYHIGH AIRLINES.IN SINCE 2023 <a href="#" class="logo">&#9992;</a></marquee>
+    </footer>
+</body>
+</html>

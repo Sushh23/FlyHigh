@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box ;
+}
+body{
+    font-size: 16px;
+    background-color: black;
+}
+.plane{
+    margin: 20px auto;
+    max-width: 370px;
+    background: white;
+
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+    }
+.select{
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.select h1{
+    width: 60%;
+    margin: 100px auto 35px auto;
+}
+.select h1{
+    width: 60%;
+    margin: 100px auto 35px auto;
+}
+.exit{
+    height: 50px;
+    position: relative;
+    margin-right: 14px;
+    margin-left: 10px;
+}
+.exit:before, .exit.after{
+    content: 'EXIT';
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0px 2px 2px 2px;
+    display: block;
+    position: absolute;
+    background: red;
+    color: white;
+    top: 50%;
+    transform: translate(0,-50%);
+    border-radius: 5px;
+
+}
+.exit:before{
+    left: 10px;
+}
+.exit:after{
+    right: 10px;
+    content: 'EXIT';
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0px 2px 2px 2px;
+    display: block;
+    position: absolute;
+    background: red;
+    color: white;
+    top: 50%;
+    transform: translate(0,-50%);
+    border-radius: 5px;
+}
+ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.seats{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.seats{
+    display: flex;
+    flex: 0 0 14.28%;
+    padding: 5px;
+    position: relative;
+}
+.seats label{
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height:1.5rem;
+    padding: 4px 0;
+    background-color: #382655;
+    border-radius: 5px;
+    color: white;
+    width: 35px;
+}
+.seats label:hover{
+    cursor: pointer;
+    box-shadow: 0 0 0px 2px #382655;
+}
+.seats input{
+    position: absolute;
+}
+.seats input[type=checkbox]:checked + label{
+    background: #656e65;
+}
+.seats:nth-child(3){
+    margin-right: 10%;
+}
+.next-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.next {
+    margin: 10px 0;
+    background: rgb(222, 111, 0);
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 17px;
+}
+.next:hover{
+    box-shadow: 0 8px 12px 0 rgb(36, 35, 35);
+}
